@@ -1,0 +1,92 @@
+body{
+    font-size: 16px;
+    background-color: hsl(148, 38%, 91%);
+    
+}
+
+form{
+    background-color: white;
+    width:40%;
+    margin:50px auto;
+    padding: 20px;
+
+}
+p{
+    font-weight: 900;
+    color: hsl(187, 24%, 22%);
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+    margin-bottom: 10px;
+    color: hsl(186, 15%, 59%);
+    
+
+}
+.firstname{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    flex-shrink: 1;
+}
+.lastname{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    flex-shrink: 1;
+}
+.email{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  
+}
+.query{
+    display:flex;
+    flex-direction: row;
+    gap:8px;
+    margin-bottom: 10px;
+   
+
+
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin-bottom: 10px;
+   
+    
+    
+}
+.textareaborder{
+    border:1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+}
+.border{
+    border:1px solid hsl(186, 15%, 59%);
+    width:100%;
+    border-radius: 5px;
+}
+button[type=submit]{
+    width:100%;
+    color: white;
+    background-color: hsl(169, 82%, 27%);
+    border:none;
+    border-radius: 5px;
+    padding:8px;
+}
+input{
+    border-radius: 5px;
+    border:1px solid hsl(186, 15%, 59%);
+    padding: 8px;
+}
+.agree{
+   margin-bottom: 10px;
+  
+
+}
+label{
+color:hsl(186, 15%, 59%);
+}
